@@ -1,0 +1,14 @@
+{
+  "name": "turtle-graphics-external-domain-language",
+  "version": "1.0.0",
+  "description": "A parser for an external graphics domain language",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}

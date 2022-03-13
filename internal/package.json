@@ -1,0 +1,14 @@
+{
+  "name": "turtle-graphics-internal-domain-language",
+  "version": "1.0.0",
+  "description": "An internal domain language for a graphics system",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
