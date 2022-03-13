@@ -1,4 +1,12 @@
-* Turtle Graphics External Domain Language
+* Turtle Graphics
+This is part of The Pragmatic Programer's exercises. The goal is to implement
+both the external and internal domain specific languages that enable the
+following imaginary requirements:
+- The graphics system can select different pens
+- The graphics system can start/stop drawing with the selected pen
+- The graphics system can draw in the four cardinal directions
+
+** Turtle Graphics External Domain Language
 This is the parser to parse a external domain language for a toy graphics
 system.
 
@@ -14,18 +22,17 @@ S 1 # then back south 1cm
 U   # pen up
 #+END_SRC
 
-** Usage
-*** From file
+*** Usage
 #+BEGIN_SRC sh
   node parser.js input.js
 #+END_SRC
 
 
-* Turtle Graphics Internal Domain Language
+** Turtle Graphics Internal Domain Language
 This is a node.js internal domain language for a toy graphics system. It can
 draw with different pens in four directions.
 
-** Usage
+*** Usage
 Create a pen and describe a drawing like this:
 #+BEGIN_SRC javascript
   const createPen = require('./index');
